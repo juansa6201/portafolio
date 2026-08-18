@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Juan Cruz Mare" />
+  <meta name="description" data-en="Juan Cruz Mare — Backend Developer specialized in Python, Django, SQL and REST APIs, with experience in AI-assisted development and automation." data-es="Juan Cruz Mare — Desarrollador Backend especializado en Python, Django, SQL y REST APIs, con experiencia en desarrollo asistido por IA y automatización." content="Juan Cruz Mare — Backend Developer" />
+  <meta property="og:title" content="Juan Cruz Mare — Backend Developer" />
+  <meta property="og:description" content="Backend Developer | Python, Django, SQL, REST APIs | AI-Assisted Development & Automation" />
+  <meta property="og:type" content="website" />
+  <title>Juan Cruz Mare — Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace'>%7B%7D</text></svg>" />
+</head>
+<body>
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__logo">JCM<span class="accent">.</span></a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" data-en="About" data-es="Sobre mí">Sobre mí</a>
+        <a href="#stack" data-en="Stack" data-es="Stack">Stack</a>
+        <a href="#experience" data-en="Experience" data-es="Experiencia">Experiencia</a>
+        <a href="#projects" data-en="Projects" data-es="Proyectos">Proyectos</a>
+        <a href="#education" data-en="Education" data-es="Educación">Educación</a>
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-toggle__opt" data-lang="es">ES</span>
+          <span class="lang-toggle__sep">/</span>
+          <span class="lang-toggle__opt" data-lang="en">EN</span>
+        </button>
+        <button class="nav__burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow mono" data-en="Hi, my name is" data-es="Hola, mi nombre es">Hola, mi nombre es</p>
+        <h1 class="hero__name">Juan Cruz Mare<span class="accent">.</span></h1>
+        <h2 class="hero__title" data-en="I build reliable backends." data-es="Construyo backends confiables.">Construyo backends confiables.</h2>
+        <p class="hero__desc" data-en="Backend Developer focused on building practical and reliable solutions with Python, Django, SQL and REST APIs — plus automation and AI-assisted development. Based in Córdoba, Argentina." data-es="Desarrollador Backend enfocado en construir soluciones prácticas y confiables con Python, Django, SQL y REST APIs — además de automatización y desarrollo asistido por IA. Desde Córdoba, Argentina.">
+          Desarrollador Backend enfocado en construir soluciones prácticas y confiables con Python, Django, SQL y REST APIs — además de automatización y desarrollo asistido por IA. Desde Córdoba, Argentina.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects" data-en="View my work" data-es="Ver mi trabajo">Ver mi trabajo</a>
+          <a class="btn btn--ghost" href="CV_Mare(English).pdf" target="_blank" rel="noopener" data-en="Download CV" data-es="Descargar CV">Descargar CV</a>
+        </div>
+
+        <div class="hero__socials">
+          <a href="https://github.com/juansa6201" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/juancruzmare" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="mailto:jcmare18@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 12.713 1.5 5.25h21L12 12.713zM12 14.25 1.5 6.787V18.75h21V6.787L12 14.25z"/></svg>
+          </a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num mono">01.</span> <span data-en="About me" data-es="Sobre mí">Sobre mí</span></h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p data-en="I'm a backend developer with experience building systems for healthcare, medical insurance, guest-registration and data-processing platforms. I help create features, improve internal workflows and support applications running in real production environments." data-es="Soy desarrollador backend, con experiencia construyendo sistemas para plataformas de salud, seguros médicos, registro de huéspedes y procesamiento de datos. Ayudo a crear funcionalidades, mejorar flujos internos y dar soporte a aplicaciones en entornos reales de producción.">
+              Soy desarrollador backend, con experiencia construyendo sistemas para plataformas de salud, seguros médicos, registro de huéspedes y procesamiento de datos. Ayudo a crear funcionalidades, mejorar flujos internos y dar soporte a aplicaciones en entornos reales de producción.
+            </p>
+            <p data-en="I also work in quality assurance for generative AI models, where I review model outputs, identify inconsistencies and help improve AI-related processes through structured evaluation. I enjoy solving technical problems, learning new technologies and building practical solutions that make systems more reliable and efficient." data-es="También trabajo en aseguramiento de calidad para modelos de IA generativa, donde reviso las salidas del modelo, identifico inconsistencias y ayudo a mejorar procesos relacionados con IA mediante evaluación estructurada. Disfruto resolver problemas técnicos, aprender nuevas tecnologías y crear soluciones prácticas que hacen los sistemas más confiables y eficientes.">
+              También trabajo en aseguramiento de calidad para modelos de IA generativa, donde reviso las salidas del modelo, identifico inconsistencias y ayudo a mejorar procesos relacionados con IA mediante evaluación estructurada. Disfruto resolver problemas técnicos, aprender nuevas tecnologías y crear soluciones prácticas que hacen los sistemas más confiables y eficientes.
+            </p>
+            <p data-en="I'm especially interested in backend development, API design, automation and data-driven projects." data-es="Me interesa especialmente el desarrollo backend, el diseño de APIs, la automatización y los proyectos basados en datos.">
+              Me interesa especialmente el desarrollo backend, el diseño de APIs, la automatización y los proyectos basados en datos.
+            </p>
+          </div>
+          <aside class="about__card">
+            <div class="about__row"><span class="mono accent">›</span><span data-en="Location" data-es="Ubicación">Ubicación</span><strong>Córdoba, Argentina</strong></div>
+            <div class="about__row"><span class="mono accent">›</span><span data-en="Role" data-es="Rol">Rol</span><strong>Backend Developer</strong></div>
+            <div class="about__row"><span class="mono accent">›</span><span data-en="Experience" data-es="Experiencia">Experiencia</span><strong data-en="4+ years" data-es="4+ años">4+ años</strong></div>
+            <div class="about__row"><span class="mono accent">›</span><span data-en="Languages" data-es="Idiomas">Idiomas</span><strong data-en="Spanish (native), English (intermediate)" data-es="Español (nativo), Inglés (intermedio)">Español (nativo), Inglés (intermedio)</strong></div>
+            <div class="about__row"><span class="mono accent">›</span><span data-en="Availability" data-es="Disponibilidad">Disponibilidad</span><strong class="status"><span class="status__dot"></span><span data-en="Open to opportunities" data-es="Abierto a oportunidades">Abierto a oportunidades</span></strong></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STACK ===== -->
+    <section class="section" id="stack">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num mono">02.</span> <span data-en="Tech stack" data-es="Stack tecnológico">Stack tecnológico</span></h2>
+        <div class="stack__grid">
+          <div class="stack__group">
+            <h3 data-en="Languages" data-es="Lenguajes">Lenguajes</h3>
+            <ul class="tags">
+              <li>Python</li><li>SQL</li><li>TypeScript</li><li>JavaScript</li><li>Java</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3 data-en="Backend & Frameworks" data-es="Backend y Frameworks">Backend y Frameworks</h3>
+            <ul class="tags">
+              <li>Django</li><li>Django REST Framework</li><li>NestJS</li><li>Node.js</li><li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3 data-en="Databases & Messaging" data-es="Bases de datos y Mensajería">Bases de datos y Mensajería</h3>
+            <ul class="tags">
+              <li>PostgreSQL</li><li>PostGIS</li><li>SQL Server</li><li>Redis</li><li>RabbitMQ</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3 data-en="Tools & Practices" data-es="Herramientas y Prácticas">Herramientas y Prácticas</h3>
+            <ul class="tags">
+              <li>Git</li><li>Docker</li><li>JWT</li><li>Clean Architecture</li><li>AI Code Evaluation</li><li>Automation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num mono">03.</span> <span data-en="Experience" data-es="Experiencia">Experiencia</span></h2>
+        <div class="timeline">
+
+          <article class="tl">
+            <div class="tl__dot"></div>
+            <div class="tl__head">
+              <h3>AI Python Scripting &amp; QA Specialist <span class="tl__company">· Scale AI</span></h3>
+              <span class="tl__date mono">Mar 2024 — <span data-en="Present" data-es="Actualidad">Actualidad</span></span>
+            </div>
+            <p class="tl__place mono">California, USA · Remote</p>
+            <ul>
+              <li data-en="Evaluated and validated generative AI model outputs and Python code against structured quality criteria." data-es="Evalué y validé salidas de modelos de IA generativa y código Python según criterios de calidad estructurados.">Evalué y validé salidas de modelos de IA generativa y código Python según criterios de calidad estructurados.</li>
+              <li data-en="Reviewed scripts for correctness, clarity, edge cases and alignment with requirements." data-es="Revisé scripts por correctitud, claridad, casos límite y alineación con los requisitos.">Revisé scripts por correctitud, claridad, casos límite y alineación con los requisitos.</li>
+              <li data-en="Identified bugs, inconsistencies and improvement opportunities in model-generated responses." data-es="Identifiqué errores, inconsistencias y oportunidades de mejora en respuestas generadas por el modelo.">Identifiqué errores, inconsistencias y oportunidades de mejora en respuestas generadas por el modelo.</li>
+              <li data-en="Applied structured criteria to improve the quality and reliability of AI-assisted coding workflows." data-es="Apliqué criterios estructurados para mejorar la calidad y confiabilidad de los flujos de codificación asistida por IA.">Apliqué criterios estructurados para mejorar la calidad y confiabilidad de los flujos de codificación asistida por IA.</li>
+            </ul>
+          </article>
+
+          <article class="tl">
+            <div class="tl__dot"></div>
+            <div class="tl__head">
+              <h3>Backend Developer <span class="tl__company">· NTB Solutions S.A.</span></h3>
+              <span class="tl__date mono">Sep 2021 — Mar 2024</span>
+            </div>
+            <p class="tl__place mono" data-en="Buenos Aires, Argentina" data-es="Buenos Aires, Argentina">Buenos Aires, Argentina</p>
+            <ul>
+              <li data-en="Developed and maintained backend systems for healthcare and medical insurance management platforms." data-es="Desarrollé y mantuve sistemas backend para plataformas de gestión de salud y seguros médicos.">Desarrollé y mantuve sistemas backend para plataformas de gestión de salud y seguros médicos.</li>
+              <li data-en="Built and integrated REST APIs using Python, Django and Django REST Framework." data-es="Construí e integré REST APIs usando Python, Django y Django REST Framework.">Construí e integré REST APIs usando Python, Django y Django REST Framework.</li>
+              <li data-en="Worked with SQL databases to support internal business operations and data workflows." data-es="Trabajé con bases de datos SQL para dar soporte a operaciones internas y flujos de datos.">Trabajé con bases de datos SQL para dar soporte a operaciones internas y flujos de datos.</li>
+              <li data-en="Supported production-level applications by resolving issues and improving system reliability." data-es="Di soporte a aplicaciones en producción resolviendo incidencias y mejorando la confiabilidad del sistema.">Di soporte a aplicaciones en producción resolviendo incidencias y mejorando la confiabilidad del sistema.</li>
+            </ul>
+          </article>
+
+          <article class="tl">
+            <div class="tl__dot"></div>
+            <div class="tl__head">
+              <h3>Backend Developer <span class="tl__company">· Chekin</span></h3>
+              <span class="tl__date mono">Feb 2022 — Oct 2022</span>
+            </div>
+            <p class="tl__place mono" data-en="Seville, Spain · Remote" data-es="Sevilla, España · Remoto">Sevilla, España · Remoto</p>
+            <ul>
+              <li data-en="Developed backend features for automated guest registration and compliance workflows." data-es="Desarrollé funcionalidades backend para registro automatizado de huéspedes y flujos de cumplimiento.">Desarrollé funcionalidades backend para registro automatizado de huéspedes y flujos de cumplimiento.</li>
+              <li data-en="Built backend services using Python, Django and API integrations." data-es="Construí servicios backend usando Python, Django e integraciones de API.">Construí servicios backend usando Python, Django e integraciones de API.</li>
+              <li data-en="Integrated asynchronous messaging workflows using RabbitMQ." data-es="Integré flujos de mensajería asíncrona usando RabbitMQ.">Integré flujos de mensajería asíncrona usando RabbitMQ.</li>
+            </ul>
+          </article>
+
+          <article class="tl">
+            <div class="tl__dot"></div>
+            <div class="tl__head">
+              <h3 data-en="Intern" data-es="Pasante">Pasante <span class="tl__company">· McAfee</span></h3>
+              <span class="tl__date mono">Jul 2019 — Sep 2019</span>
+            </div>
+            <p class="tl__place mono" data-en="Córdoba, Argentina" data-es="Córdoba, Argentina">Córdoba, Argentina</p>
+            <ul>
+              <li data-en="Early professional experience in a global cybersecurity company, supporting technical tasks and processes." data-es="Primera experiencia profesional en una empresa global de ciberseguridad, dando soporte a tareas y procesos técnicos.">Primera experiencia profesional en una empresa global de ciberseguridad, dando soporte a tareas y procesos técnicos.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num mono">04.</span> <span data-en="Featured projects" data-es="Proyectos destacados">Proyectos destacados</span></h2>
+        <div class="projects">
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/spotwise" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">SpotWise</h3>
+            <p class="card__tag mono accent" data-en="Geospatial analysis" data-es="Análisis geoespacial">Análisis geoespacial</p>
+            <p class="card__desc" data-en="Intelligent geospatial system that scores commercial viability (0–100) for a business location in Córdoba by combining competitive mapping (Google Places), demographic data and a normalized scoring engine." data-es="Sistema geoespacial inteligente que calcula la viabilidad comercial (0–100) de una ubicación de negocio en Córdoba combinando mapeo competitivo (Google Places), datos demográficos y un motor de scoring normalizado.">
+              Sistema geoespacial inteligente que calcula la viabilidad comercial (0–100) de una ubicación de negocio en Córdoba combinando mapeo competitivo (Google Places), datos demográficos y un motor de scoring normalizado.
+            </p>
+            <ul class="card__tech mono">
+              <li>Django</li><li>DRF</li><li>PostGIS</li><li>React</li><li>JWT</li><li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/bpm-tramites" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">BPM Trámites</h3>
+            <p class="card__tag mono accent" data-en="Process management" data-es="Gestión de procesos">Gestión de procesos</p>
+            <p class="card__desc" data-en="Business Process Management platform for administrative procedures across internal and external users. Multi-portal system with role-based access, audit trails, SLA tracking and document management — built on Clean Architecture + DDD." data-es="Plataforma de gestión de procesos (BPM) para trámites administrativos entre usuarios internos y externos. Sistema multi-portal con control de acceso por roles, auditoría, seguimiento de SLA y gestión documental — sobre Clean Architecture + DDD.">
+              Plataforma de gestión de procesos (BPM) para trámites administrativos entre usuarios internos y externos. Sistema multi-portal con control de acceso por roles, auditoría, seguimiento de SLA y gestión documental — sobre Clean Architecture + DDD.
+            </p>
+            <ul class="card__tech mono">
+              <li>NestJS</li><li>Prisma</li><li>PostgreSQL</li><li>Next.js</li><li>React 19</li><li>TypeScript</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/moni_score_test_back" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">Moni Score</h3>
+            <p class="card__tag mono accent" data-en="Scoring API" data-es="API de scoring">API de scoring</p>
+            <p class="card__desc" data-en="Credit-scoring technical project split into a Python backend API and a TypeScript frontend, designed to compute and display risk scores from input data." data-es="Proyecto técnico de scoring crediticio dividido en una API backend en Python y un frontend en TypeScript, diseñado para calcular y mostrar puntajes de riesgo a partir de datos de entrada.">
+              Proyecto técnico de scoring crediticio dividido en una API backend en Python y un frontend en TypeScript, diseñado para calcular y mostrar puntajes de riesgo a partir de datos de entrada.
+            </p>
+            <ul class="card__tech mono">
+              <li>Python</li><li>REST API</li><li>TypeScript</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/bus_tracker" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">Bus Tracker</h3>
+            <p class="card__tag mono accent" data-en="Real-time mobile app" data-es="App móvil en tiempo real">App móvil en tiempo real</p>
+            <p class="card__desc" data-en="Mobile app that tracks Córdoba's urban buses in real time, helping commuters know where their bus is and when it will arrive." data-es="Aplicación móvil que rastrea en tiempo real los colectivos urbanos de la ciudad de Córdoba, ayudando a los pasajeros a saber dónde está su colectivo y cuándo llegará.">
+              Aplicación móvil que rastrea en tiempo real los colectivos urbanos de la ciudad de Córdoba, ayudando a los pasajeros a saber dónde está su colectivo y cuándo llegará.
+            </p>
+            <ul class="card__tech mono">
+              <li>Dart</li><li>Flutter</li><li>Realtime</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/pyredis" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">PyRedis</h3>
+            <p class="card__tag mono accent" data-en="Systems / learning" data-es="Sistemas / aprendizaje">Sistemas / aprendizaje</p>
+            <p class="card__desc" data-en="A Redis-style key-value store experiment in Python, exploring caching, in-memory data structures and protocol fundamentals." data-es="Experimento de un almacén clave-valor estilo Redis en Python, explorando caché, estructuras de datos en memoria y fundamentos de protocolo.">
+              Experimento de un almacén clave-valor estilo Redis en Python, explorando caché, estructuras de datos en memoria y fundamentos de protocolo.
+            </p>
+            <ul class="card__tech mono">
+              <li>Python</li><li>Redis</li><li>Sockets</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <svg class="card__folder" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+              <div class="card__links">
+                <a href="https://github.com/juansa6201/twitter" target="_blank" rel="noopener" aria-label="GitHub repo"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.7.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg></a>
+              </div>
+            </div>
+            <h3 class="card__title">Twitter Clone</h3>
+            <p class="card__tag mono accent" data-en="Web app" data-es="Aplicación web">Aplicación web</p>
+            <p class="card__desc" data-en="A Twitter-style social application built with Django, covering authentication, posts and feeds — an early full-stack exercise on the framework." data-es="Aplicación social estilo Twitter construida con Django, cubriendo autenticación, publicaciones y feeds — un ejercicio full-stack temprano sobre el framework.">
+              Aplicación social estilo Twitter construida con Django, cubriendo autenticación, publicaciones y feeds — un ejercicio full-stack temprano sobre el framework.
+            </p>
+            <ul class="card__tech mono">
+              <li>Python</li><li>Django</li><li>SQLite</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <p class="projects__more">
+          <a class="btn btn--ghost" href="https://github.com/juansa6201?tab=repositories" target="_blank" rel="noopener" data-en="See all on GitHub →" data-es="Ver todo en GitHub →">Ver todo en GitHub →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num mono">05.</span> <span data-en="Education & Certifications" data-es="Educación y Certificaciones">Educación y Certificaciones</span></h2>
+        <div class="edu__grid">
+          <div class="edu__col">
+            <div class="edu__item">
+              <span class="edu__date mono">2023 — 2025</span>
+              <h3 data-en="Software Engineering Degree" data-es="Grado en Ingeniería de Software">Grado en Ingeniería de Software</h3>
+              <p>Universidad Siglo 21 · Argentina</p>
+            </div>
+            <div class="edu__item">
+              <span class="edu__date mono">2020 — 2021</span>
+              <h3 data-en="Systems Engineering" data-es="Ingeniería en Sistemas">Ingeniería en Sistemas</h3>
+              <p>Universidad Tecnológica Nacional (UTN)</p>
+            </div>
+            <div class="edu__item">
+              <span class="edu__date mono">2013 — 2019</span>
+              <h3 data-en="Programming Technician" data-es="Técnico en Programación">Técnico en Programación</h3>
+              <p data-en="Instituto Técnico Salesiano Villada · Academic average 8.5 — 5th best of the class." data-es="Instituto Técnico Salesiano Villada · Promedio 8.5 — 5° mejor promedio de la clase.">Instituto Técnico Salesiano Villada · Promedio 8.5 — 5° mejor promedio de la clase.</p>
+            </div>
+          </div>
+          <div class="edu__col">
+            <h3 class="edu__subtitle" data-en="Certifications" data-es="Certificaciones">Certificaciones</h3>
+            <ul class="edu__certs">
+              <li><span class="mono accent">▹</span> <span data-en="Programming Technician" data-es="Técnico en Programación">Técnico en Programación</span></li>
+              <li><span class="mono accent">▹</span> <span data-en="Plan 111 Mil — Programming Track" data-es="Plan 111 Mil — Trayecto Programador">Plan 111 Mil — Trayecto Programador</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <p class="section__num mono">06.</p>
+        <h2 class="contact__title" data-en="Let's work together" data-es="Trabajemos juntos">Trabajemos juntos</h2>
+        <p class="contact__text" data-en="I'm currently open to backend and AI-related opportunities. Whether you have a project in mind or just want to connect, my inbox is always open." data-es="Actualmente estoy abierto a oportunidades de backend y relacionadas con IA. Si tienes un proyecto en mente o solo quieres conectar, mi bandeja siempre está abierta.">
+          Actualmente estoy abierto a oportunidades de backend y relacionadas con IA. Si tienes un proyecto en mente o solo quieres conectar, mi bandeja siempre está abierta.
+        </p>
+        <a class="btn btn--primary btn--lg" href="mailto:jcmare18@gmail.com" data-en="Say hello" data-es="Saludar">Saludar</a>
+        <div class="contact__meta mono">
+          <a href="mailto:jcmare18@gmail.com">jcmare18@gmail.com</a>
+          <span>·</span>
+          <a href="tel:+543517724454">+54 351 772 4454</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="mono">© <span id="year"></span> Juan Cruz Mare</p>
+      <div class="footer__socials">
+        <a href="https://github.com/juansa6201" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/juancruzmare" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:jcmare18@gmail.com">Email</a>
+      </div>
+      <p class="mono footer__credit" data-en="Designed &amp; built with care." data-es="Diseñado y construido con dedicación.">Diseñado y construido con dedicación.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
